@@ -9,7 +9,7 @@
   --gutter: 30px;
   --side-small: 26;
   --side-big: 36;
-  --depth: 4000px;
+  --depth: 10400px;
   --transition: 0.75s cubic-bezier(0.075, 0.5, 0, 1);
 }
 
@@ -134,4 +134,8 @@ video.frame-media_left {
 .text-left > * {
   position: relative;
   right: 18vw;
+}
+
+.finish-word {
+  text-align: justify;
 }
