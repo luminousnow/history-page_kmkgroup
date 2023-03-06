@@ -1,16 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --index: calc(1vw + 1vh);
   --gutter: 30px;
   --side-small: 26;
   --side-big: 36;
-  --depth: 10400px;
+  --depth: 11200px;
   --transition: 0.75s cubic-bezier(0.075, 0.5, 0, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Скрываем Scrollbar */
